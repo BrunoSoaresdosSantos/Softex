@@ -1,7 +1,0 @@
-﻿Nome: Bruno Soares dos Santos
-E-mail: brunobsds8@hotmail;com
-
-
-
-
-Cada coluna ele colocou 4 que gostam de matemática(M) e 2 que gostam de português(P), e na próxima coluna ele invertia se P estava com 2 na passada nessa ficaria com 4 e M com 4 na passada ficaria com 2 nessa e assim sucessivamente. E foi assim que ele descobriu a cadeira em que houve a troca de aluno, foi na coluna 5 linha 5 um aluno de matemática trocou com o de português.
