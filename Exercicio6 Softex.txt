@@ -1,0 +1,106 @@
+Algoritmo "Aprovados"
+// Autor(a)    : Bruno Soares dos Santos
+// Data atual  : 21/09/2022
+Var
+c1,a1,a2,a3,a4: inteiro
+n1,n2,n3,n4,n5,n6,n7,n8,mn: real
+nome1,nome2,nome3,nome4,nome5,nome6,nome7,nome8,nome9:caractere
+inicio
+      c1<-1
+      n2<-0
+      a1<-0
+      mn<-0
+      enquanto (c1 <= 3)faca
+               escreva("qual seu nome? ")
+               leia(nome1)
+               escreva ("qual sua nota? ")
+               leia(n1)
+               SE n1 >= 7 ENTAO
+                  a1 <- a1+1
+               FIMSE
+               SE n1 > n2 ENTAO
+                  n2<-n1
+                  nome2<-nome1
+               FIMSE
+               c1<-c1+1
+      fimenquanto
+      SE n2 > mn ENTAO
+         mn <- n2
+         nome9 <- nome2
+      FIMSE
+      
+      c1<-1
+      n4<-0
+      a2<-0
+      enquanto (c1 <= 3)faca
+               escreva("qual seu nome? ")
+               leia(nome3)
+               escreva ("qual sua nota? ")
+               leia(n3)
+               SE n3 >= 7 ENTAO
+                  a2 <- a2+1
+               FIMSE
+               SE n3 > n4 ENTAO
+                  n4<-n3
+                  nome4<-nome3
+               FIMSE
+               c1<-c1+1
+      fimenquanto
+      SE n4 > mn ENTAO
+         mn <- n4
+         nome9 <- nome4
+      FIMSE
+      c1<-1
+      n6<-0
+      a3<-0
+      enquanto (c1 <= 3)faca
+               escreva("qual seu nome? ")
+               leia(nome5)
+               escreva ("qual sua nota? ")
+               leia(n5)
+               SE n5 >= 7 ENTAO
+                  a3 <- a3+1
+               FIMSE
+               SE n5 > n6 ENTAO
+                  n6<-n5
+                  nome6<-nome5
+               FIMSE
+               c1<-c1+1
+      fimenquanto
+      SE n6 > mn ENTAO
+         mn<- n6
+         nome9<- nome6
+      FIMSE
+      c1<-1
+      n8<-0
+      a4<-0
+      enquanto (c1 <= 3)faca
+               escreva("qual seu nome? ")
+               leia(nome7)
+               escreva ("qual sua nota? ")
+               leia(n7)
+               SE n7 >= 7 ENTAO
+                  a4 <- a4+1
+               FIMSE
+               SE n7 > n8 ENTAO
+                  n8<-n7
+                  nome8<-nome7
+               FIMSE
+               c1<-c1+1
+      fimenquanto
+      SE n8 > mn ENTAO
+         mn <- n8
+         nome9 <- nome8
+      FIMSE
+      escreval("Na turma 1 foram ",a1,"aprovados")
+      escreval("Na turma 2 foram ",a2,"aprovados")
+      escreval("Na turma 3 foram ",a3,"aprovados")
+      escreval("Na turma 4 foram ",a4,"aprovados")
+      escreval("Maior nota na turma 1 foi de ",nome2," com a nota de ",n2)
+      escreval("Maior nota na turma 2 foi de ",nome4," com a nota de ",n4)
+      escreval("Maior nota na turma 3 foi de ",nome6," com a nota de ",n6)
+      escreval("Maior nota na turma 4 foi de ",nome8," com a nota de ",n8)
+      escreval("Maior nota de todas as turmas foi de ",nome9," com a nota de ",mn)
+
+      
+Fimalgoritmo
