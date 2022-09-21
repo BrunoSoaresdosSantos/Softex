@@ -10,7 +10,7 @@ inicio
       n2<-0
       a1<-0
       mn<-0
-      enquanto (c1 <= 3)faca
+      enquanto (c1 <= 25)faca 
                escreva("qual seu nome? ")
                leia(nome1)
                escreva ("qual sua nota? ")
@@ -32,7 +32,7 @@ inicio
       c1<-1
       n4<-0
       a2<-0
-      enquanto (c1 <= 3)faca
+      enquanto (c1 <= 25)faca
                escreva("qual seu nome? ")
                leia(nome3)
                escreva ("qual sua nota? ")
@@ -53,7 +53,7 @@ inicio
       c1<-1
       n6<-0
       a3<-0
-      enquanto (c1 <= 3)faca
+      enquanto (c1 <= 25)faca
                escreva("qual seu nome? ")
                leia(nome5)
                escreva ("qual sua nota? ")
@@ -74,7 +74,7 @@ inicio
       c1<-1
       n8<-0
       a4<-0
-      enquanto (c1 <= 3)faca
+      enquanto (c1 <= 25)faca
                escreva("qual seu nome? ")
                leia(nome7)
                escreva ("qual sua nota? ")
