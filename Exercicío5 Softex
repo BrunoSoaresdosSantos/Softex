@@ -1,0 +1,93 @@
+Algoritmo "Automóveis"
+// Autor(a) : Bruno Soares dos Santos
+// Dados atuais: 21/09/2022
+Var
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14: caractere
+
+inicio
+      escreva("É terrestre?")
+      leia(p1)
+      SE p1 = "sim" ENTÃO
+         escreva("Cabe uma pessoa?")
+         leia(p2)
+         SE p2 = "sim" ENTÃO
+            escreva("É pesado?")
+            leia(p3)
+            SE p3 = "sim" ENTÃO
+               Escreva("É um trator")
+            SENÃO
+               Escreva("É uma bicicleta")
+            FIMSE
+         SENÃO
+            escreva("Usa capacete?")
+            leia(p4)
+            SE p4 = "sim" ENTÃO
+               escreva("É uma moto")
+            SENÃO
+               escreva("Usa trilhos?")
+               leia(p5)
+               SE P5 = "sim" ENTÃO
+                  escreva("É um trem")
+               SENÃO
+                  escreva("É veiculo leve?")
+                  leia(p6)
+                  SE p6 = "sim" ENTÃO
+                     escreva("é um carro")
+                  SENÃO
+                     escreva("Usa carroceria?")
+                     leia(p7)
+                     SE p7 = "sim" ENTÃO
+                        escreva("É um caminhão")
+                     SENÃO
+                        escreva("É um ônibus")
+                     FIMSE
+                  FIMSE
+               FIMSE
+            FIMSE
+         FIMSE
+      SENÃO
+         escreva("É aéreo?")
+         leia(p8)
+         SE p8 = "sim" ENTÃO
+            escreva("Precisa pular?")
+            leia(p9)
+            SE p9 = "sim" ENTÃO
+               escreva("É asa delta")
+            SENÃO
+               escreva("É devagar?")
+               leia(p10)
+               SE p10 = "sim" ENTÃO
+                  escreva("É um balão")
+               SENÃO
+                  escreva("Possui asas fixas?")
+                  leia(p11)
+                  SE p11 = "sim" ENTÃO
+                     escreva("É um avião")
+                  SENÃO
+                     escreva("é um helicóptero")
+                  FIMSE
+               FIMSE
+            FIMSE
+         SENÃO
+            escreva("É coberto de água?")
+            leia(p12)
+            SE p12 = "sim" ENTÃO
+               escreva("É um submarino")
+            SENÃO
+               escreva("Possui vela?")
+               leia(p13)
+               SE p13 = "sim" ENTÃO
+                  escreva("é um bar")
+               SENÃO
+                  escreva("É alto?")
+                  leia(p14)
+                  SE p14 = "sim" ENTÃO
+                     escreva("É navio")
+                  SENÃO
+                     escreva("É lancha")
+                  FIMSE
+               FIMSE
+            FIMSE
+         FIMSE
+      FIMSE
+Fimalgoritmo
