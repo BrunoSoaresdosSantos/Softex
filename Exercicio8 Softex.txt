@@ -15,5 +15,5 @@ elif(rodas>= 4 and pessoas > 8):
     print("A melhor categoria seria a D para o veiculo informado.")
 
 else:
-    print("A melhor categoria seria a F para o veiculo informado.")
+    print("A melhor categoria seria a E para o veiculo informado.")
 
