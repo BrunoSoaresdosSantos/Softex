@@ -1,0 +1,17 @@
+﻿Nome: Bruno Soares dos Santos
+E-mail: brunobsds8@hotmail.com
+
+
+
+
+Grafos é um conjunto de vértices(V) que são interligadas pelas arestas(E), as arestas podem ter uma direção ou não, se estiver com uma direção já predefinida seria um grafo direcionado se não seria um grafo não direcionado, também existe o grafo pesado que é com peso ou custo nas arestas.
+Um conjunto de vértices ligados sequencialmente por arestas são chamados de caminhos, quando temos mais de uma aresta entre um par de vértices chama-se arestas múltiplas.
+
+
+Exemplo de grafos são:
+
+
+UBER (O ponto de saída e o destino seriam seriam vértices e a rota seria a aresta)
+
+
+Facebook (Os amigos e os amigos dos seus amigos seriam vértices e as arestas seria os pedidos de amizades)
